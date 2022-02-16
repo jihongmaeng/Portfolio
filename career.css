@@ -1,0 +1,63 @@
+.fixed_header{
+    width: 1400x;
+    height: 250px;
+    background-image: url(../myweb/aboutme.jpg);
+    background-position: left center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px
+
+}
+
+
+a{
+    text-decoration: none;
+  }
+
+body {
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    position: relative;
+    margin-inline-start: 200px;
+  
+  }
+  
+nav div {
+    width: 70%;
+    text-align: center;
+  }
+
+.zero_menu{
+    display: inline-block;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+
+
+
+.abilities{
+    text-align: center;
+    margin-top: 20px;
+}
+
+*{
+    list-style-type: none;
+}
+
+li{
+    color:darkgrey;
+}
+
+b{
+    color: black;
+}
+
+.contact_info{
+    text-align: end;
+    padding-right: 20px;
+
+}

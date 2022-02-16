@@ -1,0 +1,68 @@
+.fixed_header{
+    width: 1400x;
+    height: 250px;
+    background-image: url(../myweb/aboutme.jpg);
+    background-position: left center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    margin: 0px
+
+}
+
+a{
+  text-decoration: none;
+}
+
+body {
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    position: relative;
+    margin-inline-start: 200px;
+  
+  }
+  
+nav div {
+    width: 70%;
+    text-align: center;
+  }
+
+.zero_menu{
+    display: inline-block;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+
+.Project{
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.project_1, .project_2, .project_3, .project_4 {
+  width: 50px;
+  margin-top: 30px;
+  margin-left: 7%;
+  margin-right: 6%;
+  padding: 80px 60px;
+  color: #050505;
+  background-color: #edf2f3;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.project_menu{
+  display: flex;
+  position: relative;
+}
+
+.contact_info{
+  text-align: end;
+  padding-right: 20px;
+
+}

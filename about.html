@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JiHong.com</title>
+    <meta charset="UTF-8" />
+    <link href="about.css" rel="stylesheet"/>
+  </head>
+<body style="margin: 0">
+<!--메뉴--> 
+  <section class="fixed_header">
+    <header>
+      <div class="about_title">
+       <div class="zero_menu"><h1>Jihongweb</h1></div>
+          <nav>
+            <style>
+              a:link{color: black;}
+              a:visited{color: black;}
+              a:hover{color: black;}
+              a:active{color: black;}
+              </style>
+              <div class="first_menu"><a href="home.html">Home</a></div>
+              <div class="second_menu"><a href="about.html">About me</a></div>
+              <div class="third_menu"><a href="career.html">Career</a></div>    
+              <div class="forth_menu"><a href="project.html">Project</a></div>    
+          </nav>
+       </div>
+     </header>
+  </section>
+
+<!--슬라이드쇼 자기소개 시작--> 
+<div style="overflow: hidden;">
+ <div class="container">
+   <div class="inner">
+    <img src="images/pic1.jpg"><h2>어쩌궁저쩌궁</h2>
+   </div>
+   <div class="inner"> 
+    <img src="images/pic2.jpg">
+   </div>
+   <div class="inner">
+    <img src="images/pic3.jpg">
+   </div> 
+ </div>
+</div>
+
+<div class="buttons">
+<button class="버튼1">1</button>
+<button class="버튼2">2</button>
+<button class="버튼3">3</button>
+</div>
+
+<script>
+  document.querySelector('.버튼2').addEventListener('click', function(){
+    document.querySelector('.container').style.transform = 'translate(-100vw)';
+    });
+    document.querySelector('.버튼3').addEventListener('click', function(){
+    document.querySelector('.container').style.transform = 'translate(-200vw)';
+    });
+    document.querySelector('.버튼1').addEventListener('click', function(){
+    document.querySelector('.container').style.transform = 'translate(-0vw)';
+    });
+</script>
+<br><br>
+
+<h2 id="hi">올 때 메로나</h2>
+
+
+<div class="ui_box" id="alert">alert 밗스<button id="alert_off" onclick="document.getElementById('alert').style.display= 'none';">off</button></div>
+
+<button onclick="document.getElementById('alert').style.display= 'block';">버튼</button>
+
+
+
+
+<footer>
+  <div class="contact_info" style="background-color: rgb(204, 214, 221)">
+    <br><h4>contacts <br> 22ampola@gmail.com</h4><br>
+  </div>
+</footer>
+
+</body>
+</html>
