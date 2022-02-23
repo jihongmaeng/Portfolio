@@ -45,7 +45,7 @@ nav div {
     width: 300vw;
     transition: transform 0.5s;
     display: flex;
-    padding-left: 35%;
+    padding-left: 15%;
     margin-top: 50px;
 }
 
@@ -53,6 +53,7 @@ nav div {
     width: 100vw;;
     float: left;
     position: relative;
+
 }
 
 .inner img {
@@ -60,10 +61,17 @@ nav div {
 
 }
 
-h2 {
+ h3 {
     position: absolute;
     top: 30%;
-    left: 10%;
+    left: 40%;
+}
+
+
+h4 {
+    position: absolute;
+    top: 30%;
+    left: 40%;
 }
 
 .buttons{
@@ -79,14 +87,3 @@ h2 {
     padding-right: 20px;
 }
 
-.ui_box{
-    background-color: greenyellow;
-    padding: 20px;
-    border-radius: 5px;
-    display: none;
-  
-}
-
-#alert_off{
-    display: block;
-}
