@@ -53,12 +53,14 @@ nav div {
   background-color: #edf2f3;
   border-radius: 10px;
   text-align: center;
-  border: 1px solid black;
+  border: 0px;
 }
 
 .project_menu{
   display: flex;
   position: relative;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .contact_info{
