@@ -61,3 +61,43 @@ b{
     padding-right: 20px;
 
 }
+
+.career_menu{
+    padding: 10px;
+    display: none;
+
+}
+
+
+.career_menu2{
+    padding: 10px;
+    display: none;
+    justify-content: center;
+
+}
+
+.twobuttons{
+    display: inline;
+    text-align: center;
+    padding: 5%;
+}
+
+.career_contents{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    justify-content: center;
+
+}
+
+.careerintro{
+    text-align: center;
+    color: rgb(124, 124, 124);
+    margin-top: 40px;
+}
+
+table{
+    text-align: center;
+    margin-left: 33%;
+
+}
