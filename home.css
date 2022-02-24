@@ -13,7 +13,7 @@ a{
 .main_background {
     width: 1400x;
     height: 750px;
-    background-image: url(../myweb/main_img.JPG);
+    background-image: url(main_img.JPG);
     background-position: left center;
     background-size: cover;
     background-repeat: no-repeat;
